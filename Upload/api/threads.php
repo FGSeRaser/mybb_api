@@ -4,6 +4,7 @@ define('IN_MYBB', 1);
 define('THIS_SCRIPT', 'threads.php');
 
 require_once '../global.php';
+require_once './api_auth.php';
 require_once './utils/errors.php';
 require_once './classes/classes.php';
 
