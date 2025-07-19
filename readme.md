@@ -53,5 +53,5 @@ Note: the following endpoints aer not in planning, but will be considered!
 - ❌ GET: Groups.php?:id
 - ❌ GET: Groups.php?:uid
 
-edited by SeRaser|
+## edited by SeRaser|
 Implemented secure API authentication: endpoints now require valid Api-Key (HTTP header) and username (GET/POST), with strict JSON error handling and HTTP status codes. Modular code, ready for central auth handler, all sensitive API endpoints protected.
