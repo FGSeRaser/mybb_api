@@ -428,6 +428,11 @@ function can_generate_key()
 {
     global $mybb;
 
+    // NUR Admins dürfen Keys generieren!
+    if ($mybb->user['usergroup'] != 4) {
+        return false;
+    }
+
     if (
         !empty($mybb->settings['api_posts_requirement']) &&
         $mybb->settings['api_posts_requirement'] > 0 &&
