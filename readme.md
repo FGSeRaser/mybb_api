@@ -22,7 +22,7 @@ This list describes the progress of the plugin, everything below will be impleme
 - ❌ GET: Users.php?:page
 
 ### Threads
-
+- ✅ POST: Threads_create.php
 - ✅ GET: Threads.php?:id
 - ✅ GET: Threads.php?:page
 - ❌ GET: Threads.php?:author
@@ -31,7 +31,6 @@ This list describes the progress of the plugin, everything below will be impleme
 
 Note: the following endpoints are not in planning, but will be considered!
 
-- ❌ POST: Threads.php
 - ❌ PUT: Threads.php?:id
 
 ### Posts
