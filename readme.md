@@ -13,6 +13,7 @@ You can now visit the API documentation by going to your MyBB board and appendin
 ## Features
 
 This list describes the progress of the plugin, everything below will be implemented unless otherwise mentioned.
+Only administrators are allowed to create and assign keys.
 
 ### Users
 
